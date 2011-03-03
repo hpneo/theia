@@ -1,0 +1,60 @@
+﻿/*
+  template: Lawyer&Attorney
+  author:   Luka Cvrk (www.solucija.com)
+*/
+
+* { margin: 0; padding: 0; }
+body { font: .74em Tahoma, Verdana, Sans-Serif, Arial; background: url(/sites/4d6ff47c1d41c81b36000008/theme/images/body.gif) repeat; color: #7f7f7f; }
+h1 { font: normal 3.4em "Trebuchet MS", Helvetica, Arial; }
+h2 { font: normal 1.8em "Trebuchet MS", Helvetica, Arial; color: #dfdfdf; margin: 0 0 15px; }
+h3 { font: normal 1.4em "Trebuchet MS", Helvetica, Arial; margin: 0 0 20px; }
+h4 { font: normal 1.2em "Trebuchet MS", Helvetica, Arial; color: #dfdfdf; margin: 0 0 4px; }
+h5 { font: normal 1.1em "Trebuchet MS", Helvetica, Arial; color: #ddd; margin: 0 0 4px; }
+p { margin: 0 0 15px; line-height: 1.6em; }
+a { outline: 0; color: #304D6F; text-decoration: none; }
+li { list-style: none; }
+li a, img { display: block; }
+img { outline: 0; border: 0; }
+#wrapper { width: 984px; margin: auto; }
+.clr { clear: both; }
+#logo { float: left; padding: 30px 15px; }
+  #logo h1 a { color: #fff; }
+    #logo h1 a span { color: #808080; }
+#menu { height: 44px; padding: 5px 0 0 4px; }
+  #menu li { float: left; font-size: 1.3em; text-transform: uppercase; }
+  #menu li.link { background: none; padding: 0px; }
+    #menu li a { color: #888; margin: 0 50px 0 0; }
+      #menu li.on a, #menu li a:hover { color: #fff; }
+  #pitch { clear: both; background: no-repeat; height: 228px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
+    #pitch h1 { font-size: 2.4em; color: #304D6F; margin: 0 0 20px; }
+    #pitch em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
+.content { background: url(../images/content.gif) repeat; padding: 20px; }
+.link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
+#main { padding: 20px; }
+.col { float: left; width: 292px; margin: 0 30px 15px 0; }
+  .col.last { float: right; margin-right: 0; }
+  .case { clear: both; }
+  .case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
+  .short { padding: 0 0 15px 0; background: url(../images/line.gif) repeat-x left bottom; margin: 0 0 15px 0px; line-height: 1.6em; }
+  .case a, .article a { color: #ddd; font-weight: bold; }
+    .case h5 a { font-weight: bold; }
+    .case .short { background: none; margin-bottom: 5px; }
+  .date { font-size: .84em; margin: 0 0 3px; }
+#footer { clear: both; background: url(../images/line.gif) repeat-x; padding: 20px 20px 10px; font-size: .9em; }
+  #footer a { color: #ccc; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+  #links { float: right; }
+    #links a { margin: 0 0 0 10px; }
+  #footer p { margin: 0 0 8px; }
+.pagination { text-align: center; padding-bottom: 20px; }
+  .pagination a { background: #304D6F; color: #fff; padding: 3px 5px; text-transform: uppercase; margin: 0 5px; }
+  .pagination a.next_page { margin-left: 0px; }
+#contactform { margin-top: 50px; }
+  #contactform p { margin-bottom: 10px; clear: both; }
+    #contactform p label { font-size: 1.3em; color: #DDD; float: left; width: 200px; }
+    #contactform p input[type=text], #contactform p textarea { font-size: 1.2em; padding: 3px 5px; }
+    #contactform p input[type=text] { width: 200px; }
+    #contactform p textarea { width: 400px; height: 200px; }
+  #contactform p.action { padding: 0 0px 15px 200px; }
+    #contactform p.action input { background: #304D6F; color: #fff; padding: 3px 5px; text-transform: uppercase; margin: 0 5px; border: none; }
+.partner { margin-top: 20px; clear: both; }
+  .partner img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
