@@ -54,6 +54,7 @@ var TinyMceDefaultSettings = {
   theme_advanced_buttons3 : '',
   theme_advanced_toolbar_location : "top",
   theme_advanced_toolbar_align : "left",
+  extended_valid_elements: "iframe[src|width|height|name|align], embed[width|height|name|flashvars|src|bgcolor|align|play|loop|quality|allowscriptaccess|type|pluginspage]",
   height: '300',
   width: '710',
   inlinepopups_skin: 'locomotive',
