@@ -2130,7 +2130,7 @@ var TinyMceDefaultSettings = {
   script_url : '/javascripts/admin/plugins/tiny_mce/tiny_mce.js',
   theme : 'advanced',
   skin : 'locomotive',
-  plugins: 'safari,inlinepopups,locoimage',
+  plugins: 'safari,inlinepopups,locoimage,media',
   theme_advanced_buttons1 : 'code,|,bold,italic,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,outdent,indent,blockquote,|,link,unlink',
   theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image',
   theme_advanced_buttons3 : '',
@@ -2139,7 +2139,8 @@ var TinyMceDefaultSettings = {
   height: '300',
   width: '710',
   inlinepopups_skin: 'locomotive',
-  convert_urls: false
+  convert_urls: false,
+  media_strict: false
 };
 
 /* ___ global ___ */
