@@ -36,7 +36,7 @@ Locomotive.configure do |config|
   config.delayed_job = false
 
   # default locale (for now, only en, de, fr and pt-BR are supported)
-  config.default_locale = :en
+  config.default_locale = :es
 
   # Configure the e-mail address which will be shown in the DeviseMailer, NotificationMailer, ...etc
   config.mailer_sender = 'support@example.com'
