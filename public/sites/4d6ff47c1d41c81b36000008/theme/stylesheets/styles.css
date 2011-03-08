@@ -1,0 +1,171 @@
+body {
+	background: #EE2E24;
+}
+
+a,
+a:visited {
+color:white;
+}
+
+.wrapper {
+	width: 857px;
+	margin: 0 auto;	
+	position: relative;
+}
+
+h1#logo {
+	background: url(../images/logo.png);
+	width: 164px;
+	height: 98px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+h1 a {
+	text-indent: -999em;
+}
+
+#header {
+	position: fixed;
+	height: 99px;
+	top:27px;;
+	left:0;
+	right: 0;
+	z-index: 100;
+}
+
+#bg-header {
+	position: fixed;
+	height: 255px;
+	top:27px;
+	left:0;
+	right: 0;
+	background: url(../images/bg-header.png) right top no-repeat;
+}
+
+#header #follow-us {
+	position: absolute;
+	right: 0;
+	top: 0;
+	list-style: none;
+	margin: 0;
+}
+
+#header #follow-us li {
+	float: left;
+	margin: 0 5px;
+}
+
+#header #follow-us li a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/follow-us.png);
+	text-indent: -999em;
+}
+
+#header #follow-us .twitter {}
+#header #follow-us .facebook {
+	background-position: -20px top;
+}
+#header #follow-us .youtube {
+	background-position: -40px top;
+}
+
+#header #menu li,
+#header #follow-us li{
+	float: left;
+}
+
+#header #menu {
+	position: absolute;
+	right: 0;
+	bottom:0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#menu li {
+	margin: 0 10px;
+}
+
+#menu li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	float:left;
+}
+
+#menu li span {
+	display:block;
+	font-size: 14px;
+}
+
+#container ul{
+	list-style: none;
+}
+
+#container{
+	width: 100%;
+}
+
+.no-js #section-what {
+	background: blue;
+}
+
+.no-js #section-what {
+	background: blue;
+}
+
+.no-js #section-brand {
+	background: orange;
+}
+
+.no-js #section-how {
+	background: aqua;
+}
+
+.section .link-anchor {
+	display: block;
+	height: 159px;
+}
+
+.section {
+    position: relative;
+    margin: 0 auto;
+    height: 800px;	
+}
+
+.section .content{
+	background: url(../images/bg-content.png) repeat;
+	height: 300px;
+}
+
+.banner {
+	width: 855px;
+	height: 325px;
+	position: relative;
+	border: solid 1px #EA8F86;
+	margin-bottom: 30px;
+}
+
+#section-brand .banner .banner-links{
+	margin: 0;
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 100%;
+	width: 190px;
+	background: url(../images/banner-links.png) left top;
+	z-index: 40;
+	padding-left: 57px;
+}
+
+
+#section-brand .banner .banner-content{
+	margin: 0;
+	width: 660px;
+	height: 325px;
+	list-style: none;
+	overflow: hidden;
+}
