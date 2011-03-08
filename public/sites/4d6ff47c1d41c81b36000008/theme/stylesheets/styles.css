@@ -23,7 +23,10 @@ h1#logo {
 }
 
 h1 a {
+	width: 164px;
+	height: 98px;	
 	text-indent: -999em;
+	display: block;
 }
 
 #header {
@@ -38,23 +41,29 @@ h1 a {
 #bg-header {
 	position: fixed;
 	height: 255px;
-	top:27px;
+	top:0px;
 	left:0;
-	right: 0;
+	right: 18px;
 	background: url(../images/bg-header.png) right top no-repeat;
 }
 
 #header #follow-us {
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: -10px;
 	list-style: none;
 	margin: 0;
 }
 
 #header #follow-us li {
 	float: left;
-	margin: 0 5px;
+	margin: 0 3px;
+}
+
+#header #follow-us li.title {
+	text-transform: uppercase;
+	font-size: 10px;
+	margin: 5px 10px 0 0;
 }
 
 #header #follow-us li a {
@@ -63,6 +72,7 @@ h1 a {
 	height: 20px;
 	background: url(../images/follow-us.png);
 	text-indent: -999em;
+	font-family: 'Bree';
 }
 
 #header #follow-us .twitter {}
@@ -81,24 +91,30 @@ h1 a {
 #header #menu {
 	position: absolute;
 	right: 0;
-	bottom:0;
+	bottom:28px;
 	margin: 0;
 	list-style-type: none;
 }
 
 #menu li {
-	margin: 0 10px;
+	margin: 0 28px;
 }
 
 #menu li a {
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
 	float:left;
+	font-family: 'Bree';
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	text-decoration: underline;
 }
 
 #menu li span {
 	display:block;
-	font-size: 14px;
+	font-size: 19px;
 }
 
 #container ul{
@@ -109,6 +125,7 @@ h1 a {
 	width: 100%;
 }
 
+/*
 .no-js #section-what {
 	background: blue;
 }
@@ -124,7 +141,7 @@ h1 a {
 .no-js #section-how {
 	background: aqua;
 }
-
+*/
 .section .link-anchor {
 	display: block;
 	height: 159px;
@@ -133,12 +150,13 @@ h1 a {
 .section {
     position: relative;
     margin: 0 auto;
-    height: 800px;	
+    min-height: 800px;	
 }
 
 .section .content{
 	background: url(../images/bg-content.png) repeat;
 	height: 300px;
+	padding: 25px;
 }
 
 .banner {
@@ -146,7 +164,7 @@ h1 a {
 	height: 325px;
 	position: relative;
 	border: solid 1px #EA8F86;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 #section-brand .banner .banner-links{
@@ -154,11 +172,49 @@ h1 a {
 	position: absolute;
 	right: 0;
 	top:0;
-	height: 100%;
-	width: 190px;
+	height: 287px;
+	width: 148px;
+	padding: 38px 20px 0 79px;
 	background: url(../images/banner-links.png) left top;
 	z-index: 40;
-	padding-left: 57px;
+	list-style-image: url(../images/bullet.png);
+}
+
+#section-brand .banner .banner-links li{
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#section-brand .banner .banner-links a{
+	text-decoration: none;
+	font-size: 13px;
+	font-family:'Bree';
+}
+#section-brand .banner .banner-links a:hover{
+	text-decoration: underline;
+}
+
+#section-brand .banner .banner-links li.last{
+	margin: 28px 0 10px 0; 
+}
+
+#section-brand .banner .banner-links li.video{
+	list-style: none;
+	width: 122px;
+	height:84px;
+	border: solid 1px #fff;
+}
+
+#section-brand .banner .banner-links li.video span{
+	width: 46px;
+	height: 47px;
+	display: block;
+	background: url(../images/play-button.png) no-repeat;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-top: -23px;
+	margin-left: -23px; 
 }
 
 
@@ -168,4 +224,42 @@ h1 a {
 	height: 325px;
 	list-style: none;
 	overflow: hidden;
+}
+
+.comments {
+	margin: 0;
+	list-style: none;
+}
+
+#section-brand .content h2 {
+	margin-bottom: 10px;
+}
+
+.comments h3 {
+	margin-bottom: 8px;
+}
+
+.comments .avatar {
+	border:solid 1px #EA8F86;
+	width: 107px;
+	height: 65px;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+}
+
+.comments .avatar .bg{
+	background: url(../images/bg-avatar.png) center center;
+	position: absolute;
+	width: 107px;
+	height: 65px;
+	
+}
+
+.comments .comment-content{
+	float: left;
+	width: 330px;
+	background: url(../images/bg-comment.png) left bottom no-repeat;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
 }
