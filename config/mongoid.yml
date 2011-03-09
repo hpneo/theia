@@ -17,8 +17,11 @@ test:
 
 # set these environment variables on your prod server
 production:
-  <<: *defaults
-  database: locomotive_prod
+  host: hydra.mongohq.com
+  port: 10044
+  username: peruinfo
+  password: yaraher
+  database: PeruInfoProduction
   uri: <%= ENV['MONGOHQ_URL'] %>
 
   # other settings for production
