@@ -8,6 +8,7 @@ CarrierWave.configure do |config|
 
   when :production
     config.storage = :file
+    config.root = File.join(Rails.root, 'public')
     # config.s3_access_key_id = ENV['S3_KEY_ID']
     # config.s3_secret_access_key = ENV['S3_SECRET_KEY']
     # config.s3_bucket = ENV['S3_BUCKET']
