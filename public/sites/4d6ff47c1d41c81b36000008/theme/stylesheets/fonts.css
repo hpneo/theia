@@ -23,11 +23,11 @@ a:hover { color: #036; }
 
 @font-face {
     font-family: 'Bree';
-    src: url('../fonts/breeregular-webfont.eot');
-    src: url('../fonts/breeregular-webfont.eot?iefix') format('eot'),
-         url('../fonts/breeregular-webfont.woff') format('woff'),
-         url('../fonts/breeregular-webfont.ttf') format('truetype'),
-         url('../fonts/breeregular-webfont.svg#webfontnUFwf05M') format('svg');
+    src: url('http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/fonts/breeregular-webfont.eot');
+    src: url('http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/fonts/breeregular-webfont.eot?iefix') format('eot'),
+         url('http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/fonts/breeregular-webfont.woff') format('woff'),
+         url('http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/fonts/breeregular-webfont.ttf') format('truetype'),
+         url('http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/fonts/breeregular-webfont.svg#webfontnUFwf05M') format('svg');
     font-weight: normal;
     font-style: normal;
 
