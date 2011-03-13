@@ -27,8 +27,8 @@ Locomotive.configure do |config|
   #   - credentials coming from this file take precedence over ENV variables
   #
   # Ex:
-  config.heroku = { :name => 'beta-theia', :login => 'alvaro.pereyra@srdperu.com', :password => 'yaraher' }
-  #config.heroku = false
+  #config.heroku = { :name => 'beta-theia', :login => 'alvaro.pereyra@srdperu.com', :password => 'yaraher' }
+  config.heroku = false
 
   # Locomotive uses the DelayedJob gem for the theme import module.
   # In case you want to deploy to Heroku, you will have to pay for an extra dyno.
