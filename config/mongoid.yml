@@ -8,8 +8,12 @@ defaults: &defaults
   #     port: 27019
 
 development:
-  <<: *defaults
-  database: locomotive_dev
+  host: hydra.mongohq.com
+  port: 10044
+  username: peruinfo
+  password: yaraher
+  database: PeruInfoProduction
+  uri: <%= ENV['MONGOHQ_URL'] %>
 
 test:
   <<: *defaults
