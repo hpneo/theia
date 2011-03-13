@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.4'
-
-gem 'locomotive_cms', :git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'
+gem 'rails', '3.0.5'
+gem 'locomotive_carrierwave', '0.5.0.1.beta3', :require => 'carrierwave'
+gem 'locomotive_cms', :path => '/Users/alvaropereyrarabanal/Development/locomotivecms/'  #:git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'
 gem 'unicorn', :group => 'development'
 
 # Bundle edge Rails instead:
