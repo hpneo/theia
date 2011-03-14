@@ -1,0 +1,17 @@
+.ie7 #home_events div.see-all {
+   margin-top: 20px;
+}
+
+.ie7 li.video{
+	list-style: none !important;
+	list-style-image: none !important;
+}
+
+.ie .schedule .banner-dif {
+	display: none !important;
+	visibility: hidden;
+}
+
+.ie .schedule .month h3{
+    margin-left: 40px;
+}
