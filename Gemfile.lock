@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 831597fcd0560356709c7f7d85b8cc29d8b8db21
+  revision: e3e999d2a714b693296db80af6b548b92768cdc3
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -122,7 +122,7 @@ GEM
       closure-compiler (>= 0.1.0)
       yui-compressor (>= 0.9.1)
     json (1.5.1)
-    kgio (2.3.2)
+    kgio (2.3.3)
     launchy (0.3.7)
       configuration (>= 0.0.5)
       rake (>= 0.8.1)
@@ -190,9 +190,9 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
-    tzinfo (0.3.24)
-    unicorn (3.4.0)
-      kgio (~> 2.2)
+    tzinfo (0.3.25)
+    unicorn (3.5.0)
+      kgio (~> 2.3)
       rack
     warden (0.10.7)
       rack (>= 1.0.0)
