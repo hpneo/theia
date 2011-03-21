@@ -79,7 +79,7 @@ body.schedule div#header {
 	top:0px;
 	left:0;
 	right: 18px;
-	background: url(../images/bg-header.png) right top no-repeat;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-header.png) right top no-repeat;
 }
 
 #header #follow-us {
@@ -105,7 +105,7 @@ body.schedule div#header {
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: url(../images/follow-us.png);
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/follow-us.png);
 	text-indent: -999em;
 	/*font-family: 'Bree';*/
 }
@@ -328,12 +328,12 @@ bottom: 47px;
 	height: 325px;
 	margin-left: -20px;
 	position: relative;
-	background: url(../images/bg-banner.png);
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-banner.png);
 	padding: 0 20px 34px 20px;
 }
 
 .banner-dif {
-	background: url(../images/banners/diffuse_home.png);
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/banners/red_diffused_background.jpg);
   	height: 325px;
     margin-left: -513px;
     position: absolute;
@@ -406,13 +406,17 @@ bottom: 47px;
 	height: 287px;
 	width: 148px;
 	padding: 38px 20px 0 79px;
-	background: url(../images/banner-links2.png) left top;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/banner-links2.png) left top;
 	z-index: 40;
-	list-style-image: url(../images/bullet.png);
+	list-style-image: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bullet.png);
 }
 
 #section-home .content {
-	background: url(../images/bg-content.png) repeat;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-content.png) repeat;
+}
+
+.content.blank{
+	background:white !important;
 }
 
 #section-home .banner .banner-links li{
@@ -445,7 +449,7 @@ bottom: 47px;
 	width: 46px;
 	height: 47px;
 	display: block;
-	background: url(../images/play-button.png) no-repeat;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/play-button.png) no-repeat;
 	position: absolute;
 	left:50%;
 	top:50%;
@@ -496,7 +500,7 @@ bottom: 47px;
 }
 
 .comments .avatar .bg{
-	background: url(../images/bg-avatar.png) center center;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-avatar.png) center center;
 	position: absolute;
 	width: 107px;
 	height: 65px;
@@ -506,7 +510,7 @@ bottom: 47px;
 .comments .comment-content{
 	float: left;
 	width: 300px;
-	background: url(../images/bg-comment.png) left bottom no-repeat;
+	background: url(http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-comment.png) left bottom no-repeat;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
 	color:white;
@@ -543,11 +547,46 @@ bottom: 47px;
 	margin-bottom: 20px;	
 }
 
+<<<<<<< HEAD
+#home_events {
+    float: left;
+    width: 350px;
+}
+#home_events .event-content h3{
+    color: #EE2E24;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+#home_events .event-content div {
+    color: #090909;
+    font: 12px "Lucida Grande",Lucida,Verdana,sans-serif;
+}
+#home_events ul.events {
+    margin: 0;
+    overflow: auto;
+}
+#home_events .events li {
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+=======
+>>>>>>> b558f3fa28cee0041a47065166c851a1cbad5f5e
 #home_events .events li.last {
 	margin-right: 0;
 }
 
 #home_events .events .event-content {
+<<<<<<< HEAD
+    background: url("http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/event.png") repeat scroll 0 0 transparent;
+    height: 66px;
+    margin-right: 4px;
+    padding: 30px 14px 9px;
+    position: relative;
+    width: 143px;
+    z-index: 5;
+=======
 	width: 143px;
 	height:66px;
 	padding: 30px 14px 9px 14px;
@@ -555,9 +594,22 @@ bottom: 47px;
 	background:url(../images/event.png);
 	position: relative;
 	z-index: 5;
+>>>>>>> b558f3fa28cee0041a47065166c851a1cbad5f5e
 }
 
 #home_events .events .event-details {
+<<<<<<< HEAD
+    background: url("http://alpha-theia.heroku.com.s3.amazonaws.com/sites/4d7003605b30553c28000005/theme/images/bg-details.png") repeat scroll 0 0 transparent;
+    color: #916D6F;
+    display: block;
+    float: right;
+    font: bold 10px/24px "Lucida Grande",Lucida,Verdana,sans-serif;
+    height: 24px;
+    margin: -6px 13px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 87px;
+=======
 	background: url(../images/bg-details.png);
 	display: block;
 	width: 87px;
@@ -569,6 +621,7 @@ bottom: 47px;
 	float: right;
 	margin: -6px 13px 0 0;
 
+>>>>>>> b558f3fa28cee0041a47065166c851a1cbad5f5e
 }
 
 
