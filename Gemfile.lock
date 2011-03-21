@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/xenda/engine.git
-  revision: 4d8ef773ac1a52592b38db85b4900418a3390157
+PATH
+  remote: /Users/alvaropereyrarabanal/Development/locomotivecms
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -65,11 +64,16 @@ GEM
     bson (1.2.4)
     bson_ext (1.2.4)
     builder (2.1.2)
-    capistrano (2.5.19)
+    capistrano (2.5.20)
+      highline
       highline
       net-scp (>= 1.0.0)
+      net-scp
+      net-sftp
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
+      net-ssh
+      net-ssh-gateway
       net-ssh-gateway (>= 1.0.0)
     closure-compiler (1.0.0)
     configuration (1.2.0)
@@ -185,8 +189,8 @@ GEM
     rmagick (2.12.2)
     ruby-hmac (0.4.0)
     rubyzip (0.9.4)
-    s3 (0.3.7)
-      proxies
+    s3 (0.3.8)
+      proxies (~> 0.2.0)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
