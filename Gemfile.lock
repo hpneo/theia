@@ -95,7 +95,7 @@ GEM
       warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    excon (0.5.7)
+    excon (0.5.8)
     fog (0.3.7)
       builder
       excon (>= 0.2.3)
