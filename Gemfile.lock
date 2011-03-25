@@ -1,12 +1,12 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 7ccb38e1c7efbcfaa0a09b28fd444cde21d09625
+  revision: fec31de17f64996a871776a1a355c3ed2679d60f
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
       actionmailer-with-request
       bson_ext (~> 1.2.0)
-      custom_fields (= 1.0.0.beta.6)
+      custom_fields (= 1.0.0.beta.9)
       delayed_job (= 2.1.4)
       delayed_job_mongoid (= 1.0.2)
       devise (= 1.1.3)
@@ -79,7 +79,7 @@ GEM
     closure-compiler (1.1.1)
     configuration (1.2.0)
     crack (0.1.8)
-    custom_fields (1.0.0.beta.6)
+    custom_fields (1.0.0.beta.9)
       activesupport (>= 3.0.4)
       locomotive_carrierwave
       mongoid (~> 2.0.0.rc.7)
