@@ -29,3 +29,9 @@ namespace :deploy do
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
  end
+
+ task :link_shared_directories do     
+   run "ln -s #{shared_path}/sites #{release_path}/public/sites"   
+ end    
+
+ after "deploy:update_code", :link_shared_directories
