@@ -5,6 +5,7 @@ gem 'locomotive_carrierwave', '0.5.0.1.beta3', :require => 'carrierwave'
 # gem 'locomotive_cms', :path => '/Users/alvaropereyrarabanal/Development/locomotivecms/', :require => "locomotive/engine" 
  #:git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'
 gem 'locomotive_cms', :git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'
+gem 'bson_ext','~> 1.3.0'
 gem 'unicorn', :group => 'development'
 
 # Bundle edge Rails instead:
