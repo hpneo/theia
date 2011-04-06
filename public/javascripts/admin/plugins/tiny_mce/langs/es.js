@@ -1,170 +1,172 @@
 tinyMCE.addI18n({es:{
 common:{
-edit_confirm:"Do you want to use the WYSIWYG mode for this textarea?",
-apply:"Apply",
-insert:"Insert",
-update:"Update",
-cancel:"Cancel",
-close:"Close",
-browse:"Browse",
-class_name:"Class",
-not_set:"-- Not set --",
-clipboard_msg:"Copy/Cut/Paste is not available in Mozilla and Firefox.\nDo you want more information about this issue?",
-clipboard_no_support:"Currently not supported by your browser, use keyboard shortcuts instead.",
-popup_blocked:"Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.",
-invalid_data:"Error: Invalid values entered, these are marked in red.",
-more_colors:"More colors"
+edit_confirm:" \u00BFDesea utilizar el modo WYSIWYG para esta caja de texto?",
+apply:"Aplicar",
+insert:"Insertar",
+update:"Actualizar",
+cancel:"Cancelar",
+close:"Cerrar",
+browse:"Examinar",
+class_name:"Clase",
+not_set:"-- Ninguno --",
+clipboard_msg:"Copiar/Cortar/Pegar no se encuentra disponible en Mozilla y Firefox.\n \u00BFDesea obtener m\u00E1s informaci\u00F3n acerca de este tema?",
+clipboard_no_support:"Su navegador no soporta las funciones de cortapapeles, use los accesos por teclado.",
+popup_blocked:"Lo sentimos, su bloqueo de ventanas emergentes ha deshabilitado una ventana que provee funcionalidades a la aplicaci\u00F3n. Necesita deshabilitar este bloqueo en este sitio para poder utilizar todas las funciones.",
+invalid_data:"Error: Introdujo un valor no v\u00E1lido, est\u00E1n marcados en rojo.",
+more_colors:"M\u00E1s colores"
 },
 contextmenu:{
-align:"Alignment",
-left:"Left",
-center:"Center",
-right:"Right",
-full:"Full"
+align:"Alineaci\u00F3n",
+left:"Izquierda",
+center:"Centrado",
+right:"Derecha",
+full:"Justificado"
 },
 insertdatetime:{
-date_fmt:"%Y-%m-%d",
+date_fmt:"%d-%m-%Y",
 time_fmt:"%H:%M:%S",
-insertdate_desc:"Insert date",
-inserttime_desc:"Insert time",
-months_long:"January,February,March,April,May,June,July,August,September,October,November,December",
-months_short:"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
-day_long:"Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",
-day_short:"Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+insertdate_desc:"Insertar fecha",
+inserttime_desc:"Insertar hora",
+months_long:"Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre",
+months_short:"Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic",
+day_long:"Domingo,Lunes,Martes,Mi\u00E9rcoles,Jueves,Viernes,S\u00E1bado,Domingo",
+day_short:"Dom,Lun,Mar,Mie,Jue,Vie,Sab,Dom"
 },
 print:{
-print_desc:"Print"
+print_desc:"Imprimir"
 },
 preview:{
-preview_desc:"Preview"
+preview_desc:"Vista previa"
 },
 directionality:{
-ltr_desc:"Direction left to right",
-rtl_desc:"Direction right to left"
+ltr_desc:"Direcci\u00F3n izquierda a derecha",
+rtl_desc:"Direcci\u00F3n derecha a izquierda"
 },
 layer:{
-insertlayer_desc:"Insert new layer",
-forward_desc:"Move forward",
-backward_desc:"Move backward",
-absolute_desc:"Toggle absolute positioning",
-content:"New layer..."
+insertlayer_desc:"Insertar nueva capa",
+forward_desc:"Avanzar",
+backward_desc:"Retroceder",
+absolute_desc:"Cambiar a posici\u00F3n absoluta",
+content:"Nueva capa..."
 },
 save:{
-save_desc:"Save",
-cancel_desc:"Cancel all changes"
+save_desc:"Guardar",
+cancel_desc:"Cancelar todos los cambios"
 },
 nonbreaking:{
-nonbreaking_desc:"Insert non-breaking space character"
+nonbreaking_desc:"Insertar caracter de espacio 'non-breaking'"
 },
 iespell:{
-iespell_desc:"Run spell checking",
-download:"ieSpell not detected. Do you want to install it now?"
+iespell_desc:"Corrector ortogr\u00E1fico",
+download:"No se detect\u00F3 'ieSpell'.  \u00BFDesea instalarlo ahora?"
 },
 advhr:{
-advhr_desc:"Horizontal rule"
+advhr_desc:"Regla horizontal"
 },
 emotions:{
-emotions_desc:"Emotions"
+emotions_desc:"Emoticones"
 },
 searchreplace:{
-search_desc:"Find",
-replace_desc:"Find/Replace"
+search_desc:"Buscar",
+replace_desc:"Buscar/Reemplazar"
 },
 advimage:{
-image_desc:"Insert/edit image"
+image_desc:"Insertar/editar imagen"
 },
 advlink:{
-link_desc:"Insert/edit link"
+link_desc:"Insertar/editar hiperv\u00EDnculo"
 },
 xhtmlxtras:{
-cite_desc:"Citation",
-abbr_desc:"Abbreviation",
-acronym_desc:"Acronym",
-del_desc:"Deletion",
-ins_desc:"Insertion",
-attribs_desc:"Insert/Edit Attributes"
+cite_desc:"Cita",
+abbr_desc:"Abreviatura",
+acronym_desc:"Acr\u00F3nimo",
+del_desc:"Borrado",
+ins_desc:"Inserci\u00F3n",
+attribs_desc:"Insertar/Editar atributos"
 },
 style:{
-desc:"Edit CSS Style"
+desc:"Editar Estilo CSS"
 },
 paste:{
-paste_text_desc:"Paste as Plain Text",
-paste_word_desc:"Paste from Word",
-selectall_desc:"Select All",
-plaintext_mode_sticky:"Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode.",
-plaintext_mode:"Paste is now in plain text mode. Click again to toggle back to regular paste mode."
+paste_text_desc:"Pegar como texto plano",
+paste_word_desc:"Pegar desde Word",
+selectall_desc:"Elegir todo",
+plaintext_mode_sticky:"Ahora estamos en modo de pegar texto plano. Haga click de nuevo para reactivar el modo normal de pegado. Luego de pegar un contenido, se devolverá de nuevo al modo regular.",
+plaintext_mode:"Modo de pegado de texto plano. Haga click de nuevo para reactivar el modo normal de pegado."
+
 },
 paste_dlg:{
-text_title:"Use CTRL+V on your keyboard to paste the text into the window.",
+text_title:"Use CTRL+V en su teclado para pegar el texto en la ventana.",
 text_linebreaks:"Keep linebreaks",
-word_title:"Use CTRL+V on your keyboard to paste the text into the window."
+word_title:"Use CTRL+V en su teclado para pegar el texto en la ventana."
 },
 table:{
-desc:"Inserts a new table",
-row_before_desc:"Insert row before",
-row_after_desc:"Insert row after",
-delete_row_desc:"Delete row",
-col_before_desc:"Insert column before",
-col_after_desc:"Insert column after",
-delete_col_desc:"Remove column",
-split_cells_desc:"Split merged table cells",
-merge_cells_desc:"Merge table cells",
-row_desc:"Table row properties",
-cell_desc:"Table cell properties",
-props_desc:"Table properties",
-paste_row_before_desc:"Paste table row before",
-paste_row_after_desc:"Paste table row after",
-cut_row_desc:"Cut table row",
-copy_row_desc:"Copy table row",
-del:"Delete table",
-row:"Row",
-col:"Column",
-cell:"Cell"
+desc:"Inserta una nueva tabla",
+row_before_desc:"Insertar fila (antes)",
+row_after_desc:"Insertar fila (despu\u00E9s)",
+delete_row_desc:"Suprimir fila",
+col_before_desc:"Insertar columna (antes)",
+col_after_desc:"Insertar columna (despu\u00E9s)",
+delete_col_desc:"Suprimir columna",
+split_cells_desc:"Dividir celdas",
+merge_cells_desc:"Vincular celdas",
+row_desc:"Propiedades de la fila",
+cell_desc:"Propiedades de la celda",
+props_desc:"Propiedades de la tabla",
+paste_row_before_desc:"Pegar filas (antes)",
+paste_row_after_desc:"Pegar filas (despu\u00E9s)",
+cut_row_desc:"Cortar fila",
+copy_row_desc:"Copiar fila",
+del:"Eliminar tabla",
+row:"Fila",
+col:"Columna",
+cell:"Celda"
 },
 autosave:{
-unload_msg:"The changes you made will be lost if you navigate away from this page.",
-restore_content:"Restore auto-saved content.",
-warning_message:"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?."
+unload_msg:"Los cambios realizados se perder\u00E1n si sale de esta p\u00E1gina.",
+restore_content:"Recuperar contenido autograbado.",
+warning_message:"Si se recupera el contenido grabado, se perderá todo aquel que que esté en este momento en el editor\n\nSeguro de recuperar el contenido grabado?"
+
 },
 fullscreen:{
-desc:"Toggle fullscreen mode"
+desc:"Cambiar a modo Pantalla Completa"
 },
 media:{
-desc:"Insert / edit embedded media",
-edit:"Edit embedded media"
+desc:"Insertar/editar medio embebido",
+edit:"Editar medio embebido"
 },
 fullpage:{
-desc:"Document properties"
+desc:"Propiedades del documento"
 },
 template:{
-desc:"Insert predefined template content"
+desc:"Insertar contenido de plantilla predefinida"
 },
 visualchars:{
-desc:"Visual control characters on/off."
+desc:"Caracteres de control ON/OFF."
 },
 spellchecker:{
-desc:"Toggle spellchecker",
-menu:"Spellchecker settings",
-ignore_word:"Ignore word",
-ignore_words:"Ignore all",
-langs:"Languages",
-wait:"Please wait...",
-sug:"Suggestions",
-no_sug:"No suggestions",
-no_mpell:"No misspellings found."
+desc:"Cambiar a corrector ortogr\u00E1fico",
+menu:"Configuraci\u00F3n de corrector ortogr\u00E1fico",
+ignore_word:"Ignorar",
+ignore_words:"Ignorar todo",
+langs:"Idiomas",
+wait:"Espere...",
+sug:"Sugerencias",
+no_sug:"Sin sugerencias",
+no_mpell:"No se encontraron errores."
 },
 pagebreak:{
-desc:"Insert page break."
+desc:"Insertar fin de p\u00E1gina"
 },
 advlist:{
-types:"Types",
-def:"Default",
-lower_alpha:"Lower alpha",
-lower_greek:"Lower greek",
-lower_roman:"Lower roman",
-upper_alpha:"Upper alpha",
-upper_roman:"Upper roman",
-circle:"Circle",
-disc:"Disc",
-square:"Square"
+types:"Tipos",
+def:"Por defecto",
+lower_alpha:"Alfa menor",
+lower_greek:"Griego menor",
+lower_roman:"Romano menor",
+upper_alpha:"Alfa superior",
+upper_roman:"Romano superior",
+circle:"Circulo",
+disc:"Disco",
+square:"Cuadrado"
 }}});

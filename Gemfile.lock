@@ -1,11 +1,11 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: aaef473db5fe5eaac8ba88c9580d854d19847787
+  revision: 3fe58c4b216c6cc2a5c611e4bfd8c1a047bcecff
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
       actionmailer-with-request
-      bson_ext (~> 1.2.0)
+      bson_ext (~> 1.3.0)
       custom_fields (= 1.0.0.beta.9)
       delayed_job (= 2.1.4)
       delayed_job_mongoid (= 1.0.2)
@@ -67,13 +67,13 @@ GEM
     arel (2.0.9)
     bcrypt-ruby (2.1.4)
     bson (1.3.0)
-    bson_ext (1.2.4)
+    bson_ext (1.3.0)
     builder (2.1.2)
     capistrano (2.5.20)
       highline
       highline
-      net-scp (>= 1.0.0)
       net-scp
+      net-scp (>= 1.0.0)
       net-sftp
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
@@ -99,7 +99,7 @@ GEM
       warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    excon (0.6.0)
+    excon (0.6.1)
     fog (0.3.7)
       builder
       excon (>= 0.2.3)
