@@ -516,10 +516,10 @@ form.formtastic ul.gallery li.selected{
 }
 form.formtastic ul.gallery li a{
   padding: 5px;
-  border: solid 1px #c1c1c1;
 }
 form.formtastic ul.gallery li a img{
-	vertical-align:middle;
+  vertical-align:middle;
+  border: solid 1px #c1c1c1;
 }
 
 /* ___ main error message ___ */
