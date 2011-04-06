@@ -514,10 +514,8 @@ form.formtastic ul.gallery li{
 form.formtastic ul.gallery li.selected{
   background:#dee1ec;
 }
-form.formtastic ul.gallery li a{
-  padding: 5px;
-}
 form.formtastic ul.gallery li a img{
+  padding: 5px;
   vertical-align:middle;
   border: solid 1px #c1c1c1;
 }
