@@ -24,11 +24,13 @@ $(document).ready(function() {
   
   $('a.gallery').click(function(e){
   	e.preventDefault();
-	$('#content_gallery').val("");
-	$('ul.gallery li').removeClass("selected");
 	if($('#content_gallery').val()==""){
 	  	$('#content_gallery').val($(this).attr('id'));
 		$(this).parent().addClass("selected");
+	}
+	else{
+		$('#content_gallery').val("");
+		$('ul.gallery li').removeClass("selected");
 	}
   });
 });
