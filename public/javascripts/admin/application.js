@@ -50,7 +50,7 @@ var TinyMceDefaultSettings = {
   skin : 'locomotive',
   plugins: 'safari,inlinepopups,locoimage',
   theme_advanced_buttons1 : 'code,|,bold,italic,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,outdent,indent,blockquote,|,link,unlink',
-  theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image',
+  theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image,|,cut,copy,paste,pastetext,pasteword',
   theme_advanced_buttons3 : '',
   theme_advanced_toolbar_location : "top",
   theme_advanced_toolbar_align : "left",
