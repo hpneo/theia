@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 5c89b6e5f4fb4fc1e362b58895746ee4fd7b6ee3
+  revision: c4c1734eab58ddb32e7a24b44f7ad209c235c3aa
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -69,16 +69,11 @@ GEM
     bson (1.3.0)
     bson_ext (1.3.0)
     builder (2.1.2)
-    capistrano (2.5.20)
-      highline
+    capistrano (2.5.21)
       highline
       net-scp (>= 1.0.0)
-      net-scp
-      net-sftp
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
-      net-ssh
-      net-ssh-gateway
       net-ssh-gateway (>= 1.0.0)
     closure-compiler (1.1.1)
     configuration (1.2.0)
