@@ -48,7 +48,7 @@ var TinyMceDefaultSettings = {
   script_url : '/javascripts/admin/plugins/tiny_mce/tiny_mce.js',
   theme : 'advanced',
   skin : 'locomotive',
-  plugins: 'safari,inlinepopups,locoimage',
+  plugins: 'safari,inlinepopups,locoimage,paste,style',
   theme_advanced_buttons1 : 'code,|,bold,italic,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,outdent,indent,blockquote,|,link,unlink',
   theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image,|,cut,copy,paste,pastetext,pasteword',
   theme_advanced_buttons3 : '',
