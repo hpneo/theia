@@ -1,10 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-<<<<<<< HEAD
-  revision: 0bffbd31b3d48c691b2458c8db6df4477c5ae853
-=======
-  revision: b9632ffcdf18ffa560c32e2f1315e710265fdb42
->>>>>>> 8712b6c7922b9ff7fc6ba724fefe1df99c21de06
+  revision: be79a892a8d63c80448b50a16d661e24611f416e
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -118,7 +114,7 @@ GEM
     heroku (1.18.2)
       json (~> 1.5.1)
       launchy (~> 0.3.2)
-      rest-client (< 1.7.0, >= 1.4.0)
+      rest-client (>= 1.4.0, < 1.7.0)
     highline (1.6.1)
     httparty (0.7.4)
       crack (= 0.1.8)
