@@ -27,7 +27,7 @@ if (typeof GENTICS != 'undefined') {
       }
     },
     i18n: {
-      available: ['en', 'fr', 'pt-BR']
+      available: ['en', 'fr', 'pt-BR', 'es']
     }
   };
 

@@ -21,4 +21,17 @@ $(document).ready(function() {
 
   $.datepicker.setDefaults($.datepicker.regional[I18nLocale]);
   $('input[type=text].date').datepicker($.datepicker.regional[I18nLocale]);
+  
+  $('a.gallery').click(function(e){
+  	e.preventDefault();
+	if($('#content_gallery').val()==$(this).attr('id')){
+		$('#content_gallery').val("");
+		$('ul.gallery li').removeClass("selected");
+	}
+	else{
+	  	$('#content_gallery').val($(this).attr('id'));
+		$('ul.gallery li').removeClass("selected");
+		$(this).parent().addClass("selected");
+	}
+  });
 });

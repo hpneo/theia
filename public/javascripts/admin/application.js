@@ -48,18 +48,16 @@ var TinyMceDefaultSettings = {
   script_url : '/javascripts/admin/plugins/tiny_mce/tiny_mce.js',
   theme : 'advanced',
   skin : 'locomotive',
-  plugins: 'safari,inlinepopups,locoimage,media',
+  plugins: 'safari,inlinepopups,locoimage,paste,style',
   theme_advanced_buttons1 : 'code,|,bold,italic,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,outdent,indent,blockquote,|,link,unlink',
-  theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image,media',
+  theme_advanced_buttons2 : 'formatselect,fontselect,fontsizeselect,|,image,|,cut,copy,paste,pastetext,pasteword',
   theme_advanced_buttons3 : '',
   theme_advanced_toolbar_location : "top",
   theme_advanced_toolbar_align : "left",
-  extended_valid_elements: "iframe[src|width|height|name|align], embed[width|height|name|flashvars|src|bgcolor|align|play|loop|quality|allowscriptaccess|type|pluginspage]",
   height: '300',
   width: '710',
   inlinepopups_skin: 'locomotive',
-  convert_urls: false,
-  media_strict: false
+  convert_urls: false
 };
 
 /* ___ global ___ */
@@ -70,11 +68,11 @@ $(document).ready(function() {
   TinyMceDefaultSettings['language'] = I18nLocale;
 
   // sub menu links
-  $('#submenu ul li.links').hover(function() {
-    $(this).addClass('hover');
+  $('#submenu ul li.hoverable').hover(function() {
+    $(this).find('a').addClass('hover');
     $(this).find('.popup').show();
   }, function() {
-    $(this).removeClass('hover');
+    $(this).find('a').removeClass('hover');
     $(this).find('.popup').hide();
   });
 
