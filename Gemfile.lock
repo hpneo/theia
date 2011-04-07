@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 512f4f8e9ab79eb2c7b1192d39ad2bdf28147ebb
+  revision: c322e17c78165daa22320feb08120359e79aebb9
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -69,16 +69,11 @@ GEM
     bson (1.3.0)
     bson_ext (1.3.0)
     builder (2.1.2)
-    capistrano (2.5.20)
+    capistrano (2.5.21)
       highline
-      highline
-      net-scp
       net-scp (>= 1.0.0)
-      net-sftp
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
-      net-ssh
-      net-ssh-gateway
       net-ssh-gateway (>= 1.0.0)
     closure-compiler (1.1.1)
     configuration (1.2.0)
@@ -99,7 +94,7 @@ GEM
       warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    excon (0.6.0)
+    excon (0.6.1)
     fog (0.3.7)
       builder
       excon (>= 0.2.3)
