@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 109b79db25cd65bcda2f89688c6b96833f896c88
+  revision: 4252274daae8e3a23d5b780a1a595b0887ab2442
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -94,7 +94,7 @@ GEM
       warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    excon (0.6.1)
+    excon (0.6.2)
     fog (0.3.7)
       builder
       excon (>= 0.2.3)
