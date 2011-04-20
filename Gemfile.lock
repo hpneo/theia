@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: 4252274daae8e3a23d5b780a1a595b0887ab2442
+  revision: 2d25b0cb895052c917401533a22a7adc1119809d
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -40,7 +40,8 @@ GEM
     actionmailer (3.0.5)
       actionpack (= 3.0.5)
       mail (~> 2.2.15)
-    actionmailer-with-request (0.1.1)
+    actionmailer-with-request (0.3.0)
+      rails (>= 3)
     actionpack (3.0.5)
       activemodel (= 3.0.5)
       activesupport (= 3.0.5)
@@ -116,7 +117,7 @@ GEM
       launchy (~> 0.3.2)
       rest-client (>= 1.4.0, < 1.7.0)
     highline (1.6.1)
-    httparty (0.7.4)
+    httparty (0.7.6)
       crack (= 0.1.8)
     i18n (0.5.0)
     inherited_resources (1.1.2)
@@ -139,7 +140,7 @@ GEM
     locomotive_liquid (2.2.2)
     locomotive_mongoid_acts_as_tree (0.1.5.5)
       mongoid (~> 2.0.0.rc.7)
-    mail (2.2.15)
+    mail (2.2.17)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
