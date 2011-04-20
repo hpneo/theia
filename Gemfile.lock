@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: abe3eb244b50b9ceae8aa0dff18948b91d36f836
+  revision: e700d1a8348433ab65364881620011ff10b960fe
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
