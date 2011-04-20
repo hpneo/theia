@@ -8,7 +8,8 @@ gem 'locomotive_carrierwave', '0.5.0.1.beta3', :require => 'carrierwave'
 # end
  
 # group :production do
-  gem 'locomotive_cms', :git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'  
+# gem 'locomotive_cms', :path => '/Users/alvaropereyrarabanal/Development/locomotivecms/', :require => "locomotive/engine" 
+gem 'locomotive_cms', :git => 'git://github.com/xenda/engine.git', :require => 'locomotive/engine'  
 # end
 
 gem 'bson_ext','~> 1.3.0'
