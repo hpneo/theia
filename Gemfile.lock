@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/xenda/engine.git
-  revision: ac23702d8a1566624a0b9e79877767b2e193fb63
+  revision: b0596283e3582ee37c4263124ab33b7057fe2be2
   specs:
     locomotive_cms (1.0.0.beta.3)
       RedCloth (= 4.2.7)
@@ -197,7 +197,7 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
-    unicorn (3.6.1)
+    unicorn (3.6.2)
       kgio (~> 2.3)
       rack
     warden (0.10.7)
