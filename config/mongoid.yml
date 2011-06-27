@@ -11,7 +11,7 @@ development:
   host: hydra.mongohq.com
   port: 10044
   username: peruinfo
-  password: yaraher
+  password: p3r41nf0
   database: PeruInfoProduction
   uri: <%= ENV['MONGOHQ_URL'] %>
 
@@ -24,7 +24,7 @@ production:
   host: hydra.mongohq.com
   port: 10044
   username: peruinfo
-  password: yaraher
+  password: p3r41nf0
   database: PeruInfoProduction
   uri: <%= ENV['MONGOHQ_URL'] %>
 
